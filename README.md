@@ -13,4 +13,5 @@ This project is a Arduino project were I have made a buzzer play a note by the p
 
 ## Schematics
 
-![Breadbord](
+ * ![Breadbord](Buzzer-Piano/IMG_0893.JPG)
+ * ![Arduino Uno](Buzzer-Piano/)
