@@ -10,3 +10,7 @@ This project is a Arduino project were I have made a buzzer play a note by the p
  * 1 Button 
  * 1 Resistor 1k ohm
  * 1 Buzzer
+
+## Schematics
+
+![Breadbord](
