@@ -1,26 +1,28 @@
 #include <Arduino.h>
+#define Pressed LOW
 #define T_C 262
 
-const int C = 7;
+const int PIEZO = 11;
+const int LED = 13;
 
-const int Buzz = 2;
-
+const int BUTTON_C = 8;
 
 void setup() {
-  // put your setup code here, to run once:
-  pinMode(C,INPUT);
-  // digitalWrite(C,HIGH);
-  Serial.begin(9600);
+ Serial.begin(9600);
+  pinMode(LED, OUTPUT);
+  
+  pinMode(BUTTON_C, INPUT);
+  digitalWrite(BUTTON_C,HIGH);
+  
+  digitalWrite(LED,LOW);
 }
-
 void loop() {
-  // put your main code here, to run repeatedly:
-  if(digitalRead(C) == LOW)
+    while(digitalRead(BUTTON_C) == Pressed)
   {
-    Serial.println("Push");
-    //tone(Buzz,T_C);
-  } else {
-    Serial.println("off");
+    tone(PIEZO,T_C);
+    digitalWrite(LED,HIGH);
   }
-  delay(100);
+  
+  noTone(PIEZO);
+  digitalWrite(LED,LOW);
 }
