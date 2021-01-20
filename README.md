@@ -13,5 +13,5 @@ This project is a Arduino project were I have made a buzzer play a note by the p
 
 ## Schematics
 
- * ![IMG_0893](https://user-images.githubusercontent.com/57347089/105228101-6d15cd00-5b62-11eb-9ff3-be8844c4b113.JPG)
- * ![Arduino Uno](Buzzer-Piano/)
+![IMG_0893](https://user-images.githubusercontent.com/57347089/105228101-6d15cd00-5b62-11eb-9ff3-be8844c4b113.JPG)
+![IMG_0894](https://user-images.githubusercontent.com/57347089/105228340-c2ea7500-5b62-11eb-9ef8-7ac429c6de4e.JPG)
